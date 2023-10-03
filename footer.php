@@ -56,11 +56,17 @@
                                 </div>
                                 <div class="widget-content">
                                     <ul class="links-list clearfix">
-                                        <li><a href="product_details.php?id=1">SPICES</a></li>
-                                        <li><a href="product_details.php?id=2">COCONUTS</a></li>
-                                        <li><a href="product_details.php?id=3">FRUITS &amp; VEGETABLES</a></li>
-                                        <li><a href="product_details.php?id=4">VEGETABLE OILS</a></li>
-                                        <li><a href="product_details.php?id=5">SEAFOODS</a></li>
+                                        <li><a href="product_details.php?id=1">FRUITS & VEGETABLES</a></li>
+                                        <li><a href="product_details.php?id=2">FOOD STUFF</a></li>
+                                        <li><a href="product_details.php?id=3">NON FOOD STUFF</a></li>
+                                        <li><a href="product_details.php?id=4">ROASTERY</a></li>
+                                        <li><a href="product_details.php?id=5">SPICES</a></li>
+                                        <li><a href="product_details.php?id=5">TEXTILE</a></li>
+                                        <li><a href="product_details.php?id=5">FOOTWEAR</a></li>
+                                        <li><a href="product_details.php?id=5">HOUSEHOLD</a></li>
+                                        <li><a href="product_details.php?id=5">MACHINERY</a></li>
+                                        <li><a href="product_details.php?id=5">BRANDING</a></li>
+                                        <li><a href="product_details.php?id=6">CHEMICALS</a></li>
                                     </ul>
                                 </div>
                             </div>

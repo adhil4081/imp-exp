@@ -617,6 +617,7 @@ include("header.php");
         <!-- news-section end -->
         */
         ?>
+        
 
         <?php 
         include("footer.php");

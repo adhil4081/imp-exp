@@ -92,6 +92,8 @@ switch  ($pgenme) {
 <link href="assets/css/color.css" rel="stylesheet">
 <link href="assets/css/style.css" rel="stylesheet">
 <link href="assets/css/responsive.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+
 
 </head>
 
@@ -222,6 +224,7 @@ switch  ($pgenme) {
                                             <li><a href="product_details.php?id=8">HOUSEHOLD</a></li>
                                             <li><a href="product_details.php?id=9">MACHINERY</a></li>
                                             <li><a href="product_details.php?id=10">BRANDING</a></li>
+                                            <li><a href="product_details.php?id=6">CHEMICALS</a></li>
 
                                         </ul>
                                     </li> 
@@ -247,6 +250,7 @@ switch  ($pgenme) {
                                             <li><a href="product_details.php?id=5">HOUSEHOLD</a></li>
                                             <li><a href="product_details.php?id=5">MACHINERY</a></li>
                                             <li><a href="product_details.php?id=5">BRANDING</a></li>
+                                            <li><a href="product_details.php?id=6">CHEMICALS</a></li>
 
                                         </ul>
                                     </li>

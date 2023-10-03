@@ -6992,3 +6992,23 @@ div#mCSB_1_container{
 .pb-215{
   padding-bottom: 215px !important;
 }
+.list h2 {
+  margin: 2em 0;
+}
+.list ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  font-size: 20px;
+  margin: 0 -10px;
+}
+.list li {
+  font-weight: bold;
+        margin: 10px 0;
+        width: calc(33.33% - 20px); /* This will make each item take up about a third of the width with some spacing */
+        box-sizing: border-box;
+    
+    }
+    
