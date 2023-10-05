@@ -43,13 +43,12 @@ include("header.php");
                             case "2":
                                 echo "<h2>FOOD STUFF</h2>";
                                 $products = [
-                                    "1121 Basmathi Rice", "1121 Creamy Sella", "1121 Golden Sella Rice",
-                                    "City Gold Biriyani Rice", "Aywa Food Jeerakasala", "777 Rice Thai(U.S. Style)",
-                                    "Nallari Matta Rice", "Lucky Gold Rice", "R.K Jeerakashala Rice",
-                                    "Golden Sella Premium rice", "Mahamood Basmathi Rice", "American Garden Plain Bread Crumbs", "Jeenan Maida",
-                                    "Aseel Ghee", "Sugar Al Khaleej", "French Fries Cheddar Cheese Sauce", "Aywa Food Natural Coconut oil", "Amir Oil", "Amul Pure Ghee",
-                                    "Emirates Macroni Corni", "Mayonise", "Tomato Ketchup", "BBQ Sauce",
-                                    "White Vinegar", "Olive Oil", "Kaja Tea Bag",
+                                    "Basmathi Rice", "Sella Rice",
+                                    "Biriyani Rice", "Jeerakasala Rice", "Rice Thai(U.S. Style)",
+                                    "Matta Rice",  "Plain Bread Crumbs", "Maida",
+                                    "Ghee", "Sugar ", "French Fries"," Cheddar Cheese"," Sauce", "Natural Coconut oil",
+                                    "Macroni", "Mayonise", "Tomato Ketchup", "BBQ Sauce",
+                                    "White Vinegar", "Olive Oil", "Tea Bag",
                                     "Chocolate Syrup", "Strawberry Syrup", "Pancake Original Syrup",
                                     "Rosewater", "Honey", "Light Soya Sauce", "Lemon Pickle", "Mango Pickle",
                                     "Mango Chutney", "Tahina Mix", "Mixed Pickle"
@@ -100,6 +99,10 @@ include("header.php");
                                 break;
                             case "9":
                                 echo "<h2>MACHINERY</h2>";
+                                $products=[
+                                    "Bakery Machineries","Food Filling and Packaging Machineries"," Food Processing And Mixing Machineries"
+
+                                ];
                                 break;
                             case "10":
                                 echo "<h2>BRANDING</h2>";

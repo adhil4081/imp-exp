@@ -55,18 +55,22 @@
                                     <h3>Products</h3>
                                 </div>
                                 <div class="widget-content">
-                                    <ul class="links-list clearfix">
+                                    <ul class="link-list clearfix">
+                                        <div class="column-list">
                                         <li><a href="product_details.php?id=1">FRUITS & VEGETABLES</a></li>
                                         <li><a href="product_details.php?id=2">FOOD STUFF</a></li>
                                         <li><a href="product_details.php?id=3">NON FOOD STUFF</a></li>
                                         <li><a href="product_details.php?id=4">ROASTERY</a></li>
                                         <li><a href="product_details.php?id=5">SPICES</a></li>
-                                        <li><a href="product_details.php?id=5">TEXTILE</a></li>
-                                        <li><a href="product_details.php?id=5">FOOTWEAR</a></li>
-                                        <li><a href="product_details.php?id=5">HOUSEHOLD</a></li>
-                                        <li><a href="product_details.php?id=5">MACHINERY</a></li>
-                                        <li><a href="product_details.php?id=5">BRANDING</a></li>
-                                        <li><a href="product_details.php?id=6">CHEMICALS</a></li>
+                                        <li><a href="product_details.php?id=6">TEXTILE</a></li>
+                                        <li><a href="product_details.php?id=7">FOOTWEAR</a></li>
+                                        <li><a href="product_details.php?id=8">HOUSEHOLD</a></li>
+                                        <li><a href="product_details.php?id=9">MACHINERY</a></li>
+                                        <li><a href="product_details.php?id=10">BRANDING</a></li>
+                                        <li><a href="product_details.php?id=11">CHEMICALS</a></li>
+                                        <li><a href="product_details.php?id=12">FROZEN</a></li>
+                                        <li><a href="product_details.php?id=13">FISH</a></li>
+                                        </div>
                                     </ul>
                                 </div>
                             </div>
@@ -98,7 +102,7 @@
                 </div>
                 <div class="footer-bottom clearfix">
                     <div class="copyright pull-left">
-                        <p>Copyright &copy; 2022 <a href="#">Al Farusia Group</a>. All Rights Reserved.</p>
+                        <p>Copyright &copy; 2023 <a href="#">Al Farusia Group</a>. All Rights Reserved.</p>
                     </div>
                     <ul class="footer-social pull-right">
                         <li><a href="#"><i class="fab fa-facebook-f"></i>Facebook</a></li>

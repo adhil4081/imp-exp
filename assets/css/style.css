@@ -7011,4 +7011,14 @@ div#mCSB_1_container{
         box-sizing: border-box;
     
     }
-    
+    .link-list {
+        columns: 2; /* Set the number of columns */
+        -webkit-columns: 2; /* For Safari and older versions of Chrome */
+        -moz-columns: 2; /* For Firefox */
+    }
+
+    .column-list {
+        list-style: none; /* Remove default list style */
+    }
+
+

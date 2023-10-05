@@ -227,6 +227,7 @@ switch  ($pgenme) {
                                             <li><a href="product_details.php?id=11">CHEMICALS</a></li>
                                             <li><a href="product_details.php?id=12">FROZEN</a></li>
                                             <li><a href="product_details.php?id=13">FISH</a></li>
+                                            <li><a href="product_details.php?id=13">WOOD</a></li>
 
                                         </ul>
                                     </li> 
