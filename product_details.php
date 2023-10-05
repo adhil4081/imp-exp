@@ -31,19 +31,116 @@ include("header.php");
                         switch ($idv) {
                             case "1":
                                 echo "<h2>FRUITS &amp; VEGETABLES</h2>";
+                                $products = [
+                                    "COCONUT", "SURAN", "CHILLY", "ANAR",
+                                    "LEMON", "TOMATO", "ONION", "BANANA",
+                                    "YELLOW BANANA", "GREEN BANANA",
+                                    "BANANA LEAVES", "RK BANANA", "TINDLY GUAVA",
+                                    "SMALL ONION", "PAPPAYA", "CURRY LEAF",
+                                ];
                                 break;
 
                             case "2":
-                                echo "<h2>COCONUTS</h2>";
+                                echo "<h2>FOOD STUFF</h2>";
+                                $products = [
+                                    "1121 Basmathi Rice", "1121 Creamy Sella", "1121 Golden Sella Rice",
+                                    "City Gold Biriyani Rice", "Aywa Food Jeerakasala", "777 Rice Thai(U.S. Style)",
+                                    "Nallari Matta Rice", "Lucky Gold Rice", "R.K Jeerakashala Rice",
+                                    "Golden Sella Premium rice", "Mahamood Basmathi Rice", "American Garden Plain Bread Crumbs", "Jeenan Maida",
+                                    "Aseel Ghee", "Sugar Al Khaleej", "French Fries Cheddar Cheese Sauce", "Aywa Food Natural Coconut oil", "Amir Oil", "Amul Pure Ghee",
+                                    "Emirates Macroni Corni", "Mayonise", "Tomato Ketchup", "BBQ Sauce",
+                                    "White Vinegar", "Olive Oil", "Kaja Tea Bag",
+                                    "Chocolate Syrup", "Strawberry Syrup", "Pancake Original Syrup",
+                                    "Rosewater", "Honey", "Light Soya Sauce", "Lemon Pickle", "Mango Pickle",
+                                    "Mango Chutney", "Tahina Mix", "Mixed Pickle"
+                                ];
                                 break;
                             case "3":
-                                echo "<h2>SPICES</h2>";
+                                echo "<h2>NON FOOD STUFF</h2>";
                                 break;
                             case "4":
-                                echo "<h2>VEGETABLE OILS</h2>";
+                                echo "<h2>ROASTERY</h2>";
+                                $products = [
+                                    "Ruby Gold-Pazham Varavu", "Ruby Gold-Banana Chips", "Ruby Gold-Potato Masala",
+                                    "Ruby Gold-Banana 4 Cut Chips", "Ruby Gold-Sarkara Varatty", "Ruby Gold-Pic Murukku Chilly",
+                                    "Ruby Gold-Tapioca Round Plain", "Ruby Gold-Peanut Roast", "Ruby Gold-Tapioca Round Chilly",
+                                    "Ruby Gold-Tapioca Slice Chilly", "Ruby Gold-Tapioca Slice plain", "Ruby Gold-Tapioca Stick Plain",
+                                    "Ruby Gold-Tapioca Stick Chilly", "Ruby Gold-Pakkavada", "Ruby Gold-Mixture Chilly",
+                                    "Ruby Gold-Peanut Masala", "Ruby Gold-Mixture Bombay", "Ruby Gold-Cornflakes Mixture",
+                                    "Ruby Gold-Sweet Mixture", "Ruby Gold-Kara Sev", "Ruby Gold-Uzhunnada",
+                                    "Ruby Gold-Pazham Varavu", "Ruby Gold-Banana Chips", "Ruby Gold-Potato Masala",
+                                    "Ruby Gold-Tomato Murukku", "Ruby Gold-Ari Murukku", "Ruby Gold-Chakka Varavu",
+                                    "Ruby Gold-Pic Murukku White", "Ruby Gold-Potato Lays Round"
+
+
+
+
+
+                                ];
                                 break;
                             case "5":
                                 echo "<h2>SPICES</h2>";
+                                $products = [
+                                    "Chilly Powder", "Kashmiri Chilly Powder", "Coriander Powder",
+                                    "Turmeric Powder", "Black Pepper Powder", "White Pepper Powder",
+                                    "Cumin Powder", "Ginger Powder", "Eastern Fish Masala", "Eastern Meat Masala",
+                                    "Eastern Sambar Masala", "Garlic Powder India", "Garam Masala", "Dry Ginger Whole China",
+                                    "Dry Lemon Yellow", "Dry Chilly Long", "Turmeric Whole", "Star", "Bay Leaves", "Coriander Whole",
+                                    "Cloves",
+                                ];
+                                break;
+                            case "6":
+                                echo "<h2>TEXTILE</h2>";
+                                break;
+                            case "7":
+                                echo "<h2>FOOTWEAR</h2>";
+                                break;
+                            case "8":
+                                echo "<h2>HOUSEHOLD</h2>";
+                                break;
+                            case "9":
+                                echo "<h2>MACHINERY</h2>";
+                                break;
+                            case "10":
+                                echo "<h2>BRANDING</h2>";
+                                break;
+                            case "11":
+                                echo "<h2>CHEMICALS</h2>";
+                                $products = [
+                                    "Realox Handwash (Strawberry,Rose,Green Apple)",
+                                    "Realox Dishwash (Lemon)", "Realox Real Fresh Lavender",
+                                    "Realox Antiseptic Disinfectant", "Realox Laundry Detergent Liquid",
+                                    "Realox Bowl Cleaner", "Realox Bleach Liquid", "Glass Cleaner",
+                                ];
+                                break;
+                            case "12":
+                                echo "<h2>FROZEN</h2>";
+                                $products = [
+                                    "Chicken", "Chicken (Brazil)", "Chicken (QK)", "Chicken (Farm Fresh)",
+                                    "Chicken (Nat)", "Chicken (GTA)", "Chicken (Zera)", "Chicken (Pena)",
+                                    "Chicken (Perdix)", "Chicken Breast", "Shawarma Almana", "Shawarma Sadia",
+                                    "Shawarma Lar", "Beef Keema Local", "Beef Liver", "Boby Veal",
+                                    "Boby Veal 5star", "Boby Veal Lagrace", "Boby Veal Arman", "Sausage (Perdix)",
+                                    "Gizzard", "Chicken Liver", "Mix Veg 4 Way", "Mutton Leg Bone In MIDFIELD/ARARAT",
+                                    "Mutton Leg Bone in Fletcher", "Mutton Leg Boneless Fletcher", "Mutton Shoulder Wagstaff",
+                                    "Mutton Shank Midfield", "Mutton Shank Fletcher", "Mutton Carcass 6 Way Cut",
+                                    "Sheep Feet Junee Gold", "Leg Quartor", "6MM PG", "6MM A to Z", "6MM Hot", "6MM Royal",
+                                    "9MM Jhon", "9MM Navaco", "Mussle Meat", "Chicken Zinger Americana", "Chicken Zinger (A.A)",
+                                    "Veg Nuggets", "Fish Fillet Trimmed ", "Cheese", "Tenderloin", "V Leg ", "Fish Cooking", "Kappa"
+
+
+                                ];
+                                break;
+                            case "13":
+                                echo "<h2>FISH</h2>";
+                                $products = [
+                                    "Barracuda","Belt Fish","Cat Fish","Cora Fish",
+                                    "Crabes Local","Dover Sole","Eatta","Fresh Black Pompet",
+                                    "Kanan Fish","Karimeen Fish","Katla Fish","King Fish","Kolan",
+                                    "Mackerel","Milk Fish","Mullan Fish","Musseles Meat","Naizer","Nathel Fish",
+                                    "Prawns","Red Hammour","Rouhu","Salmon Steak","Sardines","Seema","Shark Fish",
+                                    "Sheri","Squid","Sultan","Sultan Ibrahim","Therdy Fish","Tilapia","Vankada","Vatta","White Pomfret (MED)"
+                                ];
                                 break;
                             default:
                                 echo "<h2>SEAFOODS</h2>";
@@ -61,28 +158,18 @@ include("header.php");
                             <h2>PRODUCT LISTS</h2>
 
                             <ul class="">
-                                <li><i class="fab fa-react" style="color: red;"></i> <strong>COCONUT</strong></li>
-                                <li><i class="fab fa-react" style="color: red;"></i><strong>SURAN</strong></li>
-                                <li><i class="fab fa-react" style="color: red;"></i><strong>CHILLY</strong></li>
-                                <li><i class="fab fa-react" style="color: red;"></i><strong>ANAR</strong></li>
-                                <li><i class="fab fa-react" style="color: red;"></i><strong>LEMON</strong></li>
-                                <li><i class="fab fa-react" style="color: red;"></i><strong>TOMATO</strong></li>
-                                <li><i class="fab fa-react" style="color: red;"></i><strong>ONION</strong></li>
-                                <li><i class="fab fa-react" style="color: red;"></i><strong>BANANA</strong></li>
-                                <li><i class="fab fa-react" style="color: red;"></i><strong>YELLOW BANANA</strong></li>
-                                <li><i class="fab fa-react" style="color: red;"></i><strong>GREEN BANANA</strong></li>
-                                <li><i class="fab fa-react" style="color: red;"></i><strong>BANANA LEAVES</strong></li>
-                                <li><i class="fab fa-react" style="color: red;"></i><strong>RK BANANA</strong></li>
-                                <li><i class="fab fa-react" style="color: red;"></i><strong>TINDLY GUAVA</strong></li>
-                                <li><i class="fab fa-react" style="color: red;"></i><strong>SMALL ONION</strong></li>
-                                <li><i class="fab fa-react" style="color: red;"></i><strong>PAPPAYA</strong></li>
+                                <?php
+                                foreach ($products as $product) {
+                                    echo "<li><i class='fab fa-react' style='color: red;'></i><strong>$product</strong></li>";
+                                }
+                                ?>
 
                             </ul>
                         </div>
                     </div>
                     <div class="two-column">
                         <div class="row clearfix align-items-center">
-                        <div class="col-lg-6 col-md-6 col-sm-12 text-column">
+                            <div class="col-lg-6 col-md-6 col-sm-12 text-column">
                                 <div class="text">
                                     <h3>Standard Quality</h3>
                                     <p>Our Association &amp; Memberships :</p>
@@ -96,7 +183,7 @@ include("header.php");
                             <div class="col-lg-6 col-md-6 col-sm-12 image-column">
                                 <figure class="image-box"><img src="assets/images/service/service-details-2.jpg" alt=""></figure>
                             </div>
-                       
+
                         </div>
                     </div>
 
@@ -165,24 +252,30 @@ include("header.php");
                             <li><a href="product_details.php?id=5" <?php if ($idv == "5") {
                                                                         echo ' class="current" ';
                                                                     } ?>>SPICES</a></li>
-                            <li><a href="product_details.php?id=6" <?php if ($idv == "5") {
+                            <li><a href="product_details.php?id=6" <?php if ($idv == "6") {
                                                                         echo ' class="current" ';
                                                                     } ?>>TEXTILE</a></li>
-                            <li><a href="product_details.php?id=7" <?php if ($idv == "5") {
+                            <li><a href="product_details.php?id=7" <?php if ($idv == "7") {
                                                                         echo ' class="current" ';
                                                                     } ?>>FOOTWEAR</a></li>
-                            <li><a href="product_details.php?id=8" <?php if ($idv == "5") {
+                            <li><a href="product_details.php?id=8" <?php if ($idv == "8") {
                                                                         echo ' class="current" ';
                                                                     } ?>>HOUSEHOLD</a></li>
-                            <li><a href="product_details.php?id=9" <?php if ($idv == "5") {
+                            <li><a href="product_details.php?id=9" <?php if ($idv == "9") {
                                                                         echo ' class="current" ';
                                                                     } ?>>MACHINERY</a></li>
-                            <li><a href="product_details.php?id=10" <?php if ($idv == "5") {
+                            <li><a href="product_details.php?id=10" <?php if ($idv == "10") {
                                                                         echo ' class="current" ';
                                                                     } ?>>BRANDING</a></li>
-                            <li><a href="product_details.php?id=11" <?php if ($idv == "5") {
+                            <li><a href="product_details.php?id=11" <?php if ($idv == "11") {
                                                                         echo ' class="current" ';
                                                                     } ?>>CHEMICALS</a></li>
+                            <li><a href="product_details.php?id=12" <?php if ($idv == "12") {
+                                                                        echo ' class="current" ';
+                                                                    } ?>>FROZEN</a></li>
+                            <li><a href="product_details.php?id=13" <?php if ($idv == "13") {
+                                                                        echo ' class="current" ';
+                                                                    } ?>>FISH</a></li>
 
 
                         </ul>

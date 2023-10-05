@@ -224,7 +224,9 @@ switch  ($pgenme) {
                                             <li><a href="product_details.php?id=8">HOUSEHOLD</a></li>
                                             <li><a href="product_details.php?id=9">MACHINERY</a></li>
                                             <li><a href="product_details.php?id=10">BRANDING</a></li>
-                                            <li><a href="product_details.php?id=6">CHEMICALS</a></li>
+                                            <li><a href="product_details.php?id=11">CHEMICALS</a></li>
+                                            <li><a href="product_details.php?id=12">FROZEN</a></li>
+                                            <li><a href="product_details.php?id=13">FISH</a></li>
 
                                         </ul>
                                     </li> 
@@ -245,12 +247,14 @@ switch  ($pgenme) {
                                             <li><a href="product_details.php?id=3">NON FOOD STUFF</a></li>
                                             <li><a href="product_details.php?id=4">ROASTERY</a></li>
                                             <li><a href="product_details.php?id=5">SPICES</a></li>
-                                            <li><a href="product_details.php?id=5">TEXTILE</a></li>
-                                            <li><a href="product_details.php?id=5">FOOTWEAR</a></li>
-                                            <li><a href="product_details.php?id=5">HOUSEHOLD</a></li>
-                                            <li><a href="product_details.php?id=5">MACHINERY</a></li>
-                                            <li><a href="product_details.php?id=5">BRANDING</a></li>
-                                            <li><a href="product_details.php?id=6">CHEMICALS</a></li>
+                                            <li><a href="product_details.php?id=6">TEXTILE</a></li>
+                                            <li><a href="product_details.php?id=7">FOOTWEAR</a></li>
+                                            <li><a href="product_details.php?id=8">HOUSEHOLD</a></li>
+                                            <li><a href="product_details.php?id=9">MACHINERY</a></li>
+                                            <li><a href="product_details.php?id=10">BRANDING</a></li>
+                                            <li><a href="product_details.php?id=11">CHEMICALS</a></li>
+                                            <li><a href="product_details.php?id=12">FROZEN</a></li>
+                                            <li><a href="product_details.php?id=13">FISH</a></li>
 
                                         </ul>
                                     </li>
