@@ -46,7 +46,7 @@ include("header.php");
                                     "Basmathi Rice", "Sella Rice",
                                     "Biriyani Rice", "Jeerakasala Rice", "Rice Thai(U.S. Style)",
                                     "Matta Rice",  "Plain Bread Crumbs", "Maida",
-                                    "Ghee", "Sugar ", "French Fries"," Cheddar Cheese"," Sauce", "Natural Coconut oil",
+                                    "Ghee", "Sugar ", "French Fries", " Cheddar Cheese", " Sauce", "Natural Coconut oil",
                                     "Macroni", "Mayonise", "Tomato Ketchup", "BBQ Sauce",
                                     "White Vinegar", "Olive Oil", "Tea Bag",
                                     "Chocolate Syrup", "Strawberry Syrup", "Pancake Original Syrup",
@@ -56,6 +56,10 @@ include("header.php");
                                 break;
                             case "3":
                                 echo "<h2>NON FOOD STUFF</h2>";
+                                $products = ["Realox Handwash (Strawberry,Rose,Green Apple)",
+                                "Realox Dishwash (Lemon)", "Realox Real Fresh Lavender",
+                                "Realox Antiseptic Disinfectant", "Realox Laundry Detergent Liquid",
+                                "Realox Bowl Cleaner", "Realox Bleach Liquid", "Glass Cleaner",];
                                 break;
                             case "4":
                                 echo "<h2>ROASTERY</h2>";
@@ -90,17 +94,38 @@ include("header.php");
                                 break;
                             case "6":
                                 echo "<h2>TEXTILE</h2>";
+                                $products = [
+                                    "Shirts", "Pants", "Jeans", "Saree", "T-Shirts", "Shorts",
+                                    "Joggers","Frock","Caps","Nighties","Churidar ","Churidar Materials","Abaya","Bed Sheets",
+                                    "Bath Towel","Mens Innerwears","Women Innerwears",
+                                    "Baby Frock","Baby Pyjama Set","Baby Shirt","Blanket","Gown",
+                                    "Fabrics","Boxers","Boys Jeans","Boys T-Shirts"
+                                ];
                                 break;
                             case "7":
                                 echo "<h2>FOOTWEAR</h2>";
+                                $products = [
+                                    "Ladies Shoes", "Mens Boots","Mens Casual Shoes", "Mens Ethnic Juttis",
+                                    "Mens Formal PU Shoes", "Mens Loafer Shoes", "Ladies Wedges,Flats And Heels", 
+                                    "Mens Formal Leather Shoes","Mens Semi Formal And Dress Shoes",
+                                    "Mens Slippers And Sandals", "Mens Sports Shoes","Baby Shoes",
+                                    "Boys Shoes"
+                                ];
                                 break;
                             case "8":
                                 echo "<h2>HOUSEHOLD</h2>";
+                                $products = [
+                                    "Mixer Grinders","Wall Clock","T.V","Bed","Oven","Fry Pan",
+                                    "Chilly And Nut Cutter","Lighter","Mop","Toilet Brush",
+                                    "Blender","Cooker","Flash Light","Iron Box","Rice Cooker",
+                                    "Electric Fan","Hair Trimmer","Sonapur Light","Beam light",
+                                    "Bath Mat","Cookware"
+                            ];
                                 break;
                             case "9":
                                 echo "<h2>MACHINERY</h2>";
-                                $products=[
-                                    "Bakery Machineries","Food Filling and Packaging Machineries"," Food Processing And Mixing Machineries"
+                                $products = [
+                                    "Bakery Machineries", "Food Filling and Packaging Machineries", " Food Processing And Mixing Machineries"
 
                                 ];
                                 break;
@@ -110,10 +135,7 @@ include("header.php");
                             case "11":
                                 echo "<h2>CHEMICALS</h2>";
                                 $products = [
-                                    "Realox Handwash (Strawberry,Rose,Green Apple)",
-                                    "Realox Dishwash (Lemon)", "Realox Real Fresh Lavender",
-                                    "Realox Antiseptic Disinfectant", "Realox Laundry Detergent Liquid",
-                                    "Realox Bowl Cleaner", "Realox Bleach Liquid", "Glass Cleaner",
+                                    
                                 ];
                                 break;
                             case "12":
@@ -137,12 +159,12 @@ include("header.php");
                             case "13":
                                 echo "<h2>FISH</h2>";
                                 $products = [
-                                    "Barracuda","Belt Fish","Cat Fish","Cora Fish",
-                                    "Crabes Local","Dover Sole","Eatta","Fresh Black Pompet",
-                                    "Kanan Fish","Karimeen Fish","Katla Fish","King Fish","Kolan",
-                                    "Mackerel","Milk Fish","Mullan Fish","Musseles Meat","Naizer","Nathel Fish",
-                                    "Prawns","Red Hammour","Rouhu","Salmon Steak","Sardines","Seema","Shark Fish",
-                                    "Sheri","Squid","Sultan","Sultan Ibrahim","Therdy Fish","Tilapia","Vankada","Vatta","White Pomfret (MED)"
+                                    "Barracuda", "Belt Fish", "Cat Fish", "Cora Fish",
+                                    "Crabes Local", "Dover Sole", "Eatta", "Fresh Black Pompet",
+                                    "Kanan Fish", "Karimeen Fish", "Katla Fish", "King Fish", "Kolan",
+                                    "Mackerel", "Milk Fish", "Mullan Fish", "Musseles Meat", "Naizer", "Nathel Fish",
+                                    "Prawns", "Red Hammour", "Rouhu", "Salmon Steak", "Sardines", "Seema", "Shark Fish",
+                                    "Sheri", "Squid", "Sultan", "Sultan Ibrahim", "Therdy Fish", "Tilapia", "Vankada", "Vatta", "White Pomfret (MED)"
                                 ];
                                 break;
                             default:
